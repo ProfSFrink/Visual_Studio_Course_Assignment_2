@@ -73,9 +73,9 @@ body {
 /* Assignment #2 1.ii) Customise and element of the page with CSS */
 
 .heading {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkblue;
-    text-shadow: grey 2px 2px;
-    border: 5px solid black;
-    box-shadow: grey 3px 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use this font hierachy */
+    color: darkblue; /* Set the text colour to dark blue */
+    text-shadow: grey 2px 2px; /* Give the element an small grey text shadow */
+    border: 5px solid black; /* A 5 pixel thick black border */
+    box-shadow: grey 3px 3px; /* Give the bordered a grey shadow effect */
 }
