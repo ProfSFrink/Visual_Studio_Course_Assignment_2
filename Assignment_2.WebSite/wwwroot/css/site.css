@@ -70,12 +70,38 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-/* Assignment #2 1.ii) Customise and element of the page with CSS */
+/* Advanced Software and Web Developer Diploma
+Course VIII: Visual Studio by Pitman Training / The Tech Academy
+by Steven Partlow
 
+Assigment 2: Create an ASP.NET Website that uses Git Version Control */
+
+/* Assignment #2 1.ii) Customise and element of the page with CSS */
 .heading {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Use this font hierachy */
     color: darkblue; /* Set the text colour to dark blue */
     text-shadow: grey 2px 2px; /* Give the element an small grey text shadow */
     border: 5px solid black; /* A 5 pixel thick black border */
     box-shadow: grey 3px 3px; /* Give the bordered a grey shadow effect */
+}
+
+/* 1.iii) Create an animation using HTML, CSS anf JavaScript */
+
+/* CSS for the container containing our animation */
+
+#Animation_Container {
+    margin-left: 33%; /* Move the animation container one third across the page */
+    width: 400px; /* Make the container 400 by 400 pixels */
+    height: 400px;
+    position: relative; /* Position it relatie to other elements */
+    background: yellow; /* Make the background this colour */
+}
+
+/* CSS for the actual animation itself */
+
+#Animation {
+    width: 50px; /* Make the container 50 by 50 pixels */
+    height: 50px;
+    position: absolute; /* Position it within the 'Animation_Container' */
+    background-color: red; /* Make it this colour */
 }
